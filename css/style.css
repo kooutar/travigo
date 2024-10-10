@@ -484,3 +484,64 @@ header.sticky{
 		transition: .2s;
 	}
 }
+
+
+
+
+.Contact{
+	background: url(../img/background.jpg);
+	color: var(--text-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+.containerContact{
+    display: block;
+  margin-top: 100px;  
+   
+}
+.h1{
+    color: #fff;  
+}
+
+.p{
+	font-size: 5rem;
+	font-family: 'Paytone One', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.formulaireContact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    display: flex;
+    
+    padding: 100px; 
+   justify-content: start;
+}
+.formulaireContact .Form{
+    display: flex;
+    flex-direction: column;   
+}
+.formulaireContact .Form .input{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+#textarea{
+    width: 70%;
+    height: 100px;
+    margin-bottom:20px ;
+    padding: 5px;
+}
+#btne{
+   background-color: #7E60BF; 
+   cursor: pointer;
+   width: 70%;
+}
+#btn:hover{
+    background-color: #6e54fa;
+}
